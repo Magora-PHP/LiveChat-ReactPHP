@@ -1,0 +1,47 @@
+// @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+.rooms {
+    padding: 0;
+}
+    .rooms-item {
+        min-height: 95px;
+        padding: 15px;
+        border: 1px solid #eee;
+    }
+    .rooms-item:hover {
+        background-color: #eee;
+    }
+        .rooms-item a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+.message-new-panel {
+    padding: 10px 10px 0;
+}
+
+.messages-item {
+    margin-bottom: 15px;
+}
+    .messages-item .message-meta {
+        margin-bottom: 5px;
+    }
+    .messages-item .message-meta > * {
+        display: inline-block;
+    }
+    .messages-item .message-user-name {
+        font-weight: 600;
+        color: #333;
+        opacity: .7;
+    }
+    .messages-item .message-user-nickname {
+        font-weight: 600;
+        color: #333;
+        opacity: .5;
+    }
+    .messages-item .message-user-nickname:before {
+        content: '@';
+    }
+    .messages-item .message-body {
+        color: #000;
+    }
